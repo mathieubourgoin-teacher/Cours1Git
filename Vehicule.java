@@ -11,7 +11,7 @@ import java.text.DecimalFormat;
 public class Vehicule {
 
     public static final int MIN_PASSAGERS = 4;
-    public static final int MAX_PASSAGERS = 8;
+    public static final int MAX_PASSAGERS = 10;
     public static final double TAXE = 0.15;
     public static final double RABAIS_PAR_DEFAUT = 0;
     public static final double FRAIS_ADMINISTRATIF = 5.25;
@@ -91,4 +91,5 @@ public class Vehicule {
         return nombrePassagers >= MIN_PASSAGERS && nombrePassagers <= MAX_PASSAGERS;
     }
 }
+
 
