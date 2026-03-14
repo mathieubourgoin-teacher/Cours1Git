@@ -19,8 +19,8 @@ public class Vehicule {
 
     private double prixVente = 0;
     private double rabais = RABAIS_PAR_DEFAUT;
-    private String modele = "";
-    private int nombrePassagers = 0;
+    private String modele = "Honda";
+	private int anneeModele = 2016;
 
     /**
      * Constructeur
